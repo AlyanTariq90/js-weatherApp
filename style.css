@@ -1,0 +1,44 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(32, 136, 246);
+  color: white;
+  flex: wrap;
+}
+img {
+  width: 150px; 
+}
+.start {
+  display: block;
+  text-align: center;
+  justify-content: center;
+}
+.date{
+  opacity: 0.5;
+  margin-top: 25px;
+}
+.temprature{
+  margin-left: 10px;
+  font-size: 2em;
+}
+.climate{
+  margin-bottom: 25px;
+}
+.last{
+  padding-bottom: 25px;
+  padding-top: 25px;
+  margin-right: 35%;
+  margin-left: 35%;
+  border: 1px solid rgb(19, 91, 208);
+  background-color: rgb(19, 91, 208);
+  border-radius: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+span{
+  display: block;
+  opacity: 0.5;
+}
